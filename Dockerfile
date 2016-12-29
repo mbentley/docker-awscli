@@ -5,4 +5,4 @@ RUN apk --no-cache add groff less py-pip
 RUN pip install awscli
 
 ENTRYPOINT ["/usr/bin/aws"]
-CMD ["help"]
+CMD [""]
